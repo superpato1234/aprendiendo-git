@@ -1,7 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
+    font-family: 'Montserrat', sans-serif;
     background-color: gray;
+}
+#buscador{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#navegacion{
+    height: 50px;
+    background-color: blue;
+}
+#room{
+    border: 0px;
+    height: 70%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#room:focus{
+    outline: none;
+    font-size: 15px;
+}
+#buscar-room{
+    outline-style: none;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 70%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0px 5px 0px 5px;
+}
+#icon-buscar{
+    border: 0px;
+    background-color:rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+}
+#icon-filtros{
+    border: 0px;
+    background-color:rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+}
+#txt-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white;
+    border-radius: 10px; */
+    background-color: rgb(156, 156, 156);
+    width: 20%;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+}
+#activar-filtros{
+    outline-style: none;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 70%;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+}
+#filtros{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+/*     border: 2px solid white;
+    border-radius: 10px; */
+    background-color: rgb(156, 156, 156);
+    height: 50px;
+    margin: 10px 0px 10px 0px;
 }
